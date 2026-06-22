@@ -90,16 +90,16 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - '&UA_OO'
   - '&UA_UU'
-  - '&UA_IE'
-  - '&UA_IQ'
+  - '}'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '-', s: _}
   - {t: '=', s: +}
   - +
-  - '{'
+  - {t: '[', s: '{'}
+  - {t: ']', s: '}'}
   - $$mdi:arrow-left-bold$$
-  - '}'
+  - '{'
   - '&UA_NN'
   - '&UA_EE'
   - '&UA_II'
@@ -108,12 +108,12 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - <
   - '>'
-  - {t: '[', s: '{'}
-  - {t: ']', s: '}'}
   - {t: /, s: '?'}
-  - $$mdi:arrow-right-bold$$
   - '?'
   - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:arrow-right-bold$$
+  - '&UA_IE'
+  - '&UA_IQ'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
