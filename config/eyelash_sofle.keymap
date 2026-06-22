@@ -121,21 +121,21 @@
         layer0 {
             bindings = <
 &kp ESC      &kp N1      &kp N2       &kp N3       &kp N4       &kp N5        &kp UP_ARROW     &kp N6       &kp N7       &kp N8       &kp N9        &kp N0          &kp BACKSPACE
-&kp TAB      &kp Q       &kp W        &kp F        &kp P        &kp B         &kp DOWN_ARROW   &kp J        &kp L        &kp U        &kp Y         &kp SEMI        &kp APOS
-&kp LALT     &kp A       &kp R        &kp S        &kp T        &kp G         &kp LEFT_ARROW   &kp M        &kp N        &kp E        &kp I         &kp O           &kp ENTER
-&kp LSHFT    &kp Z       &kp X        &kp C        &kp D        &kp V         &kp RIGHT_ARROW  &kp K        &kp H        &kp COMMA    &kp DOT       &kp FSLH        &kp RSHFT
+&kp TAB      &kp W       &kp L        &kp Y        &kp P        &kp B         &kp DOWN_ARROW   &kp F        &kp J        &kp O        &kp U         &kp SEMI        &kp APOS
+&kp LALT     &kp C       &kp R        &kp S        &kp T        &kp G         &kp LEFT_ARROW   &kp M        &kp N        &kp E        &kp I         &kp A           &kp ENTER
+&kp LSHFT    &kp Q       &kp Z        &kp V        &kp D        &kp K         &kp RIGHT_ARROW  &kp X        &kp H        &kp SLASH    &kp COMMA     &kp DOT         &kp RSHFT
 &kp C_MUTE   &kp LCTRL   &kp LGUI     &kp LALT     &mo 2        &kp SPACE     &kp ENTER        &kp SPACE    &kp ENTER    &mo 1        &kp DELETE      &kp RSHFT
             >;
 
             sensor-bindings = <&scroll_encoder>;
-            display-name = "COLEMAK-DH";
+            display-name = "CANARIA";
         };
 
         layer_1 {
             bindings = <
 &kp GRAVE    &kp LS(N1)  &kp LS(N2)   &kp LS(N3)   &kp LS(N4)   &kp LS(N5)    &kp UP_ARROW     &kp LS(N6)   &kp LS(N7)   &kp LS(N8)   &kp LS(N9)    &kp LS(N0)      &kp DELETE
-&trans       &kp BSLH    &kp PIPE     &kp GRAVE     &kp TILDE    &kp UNDER     &kp DOWN_ARROW   &trans       &trans       &UA_UU       &UA_UUML      &UA_IE          &UA_IQ
-&trans       &UA_AA      &kp MINUS    &kp EQUAL     &kp PLUS     &kp LBRC      &kp LEFT_ARROW   &kp RBRC     &UA_NN       &UA_EE       &UA_II        &UA_OO          &trans
+&trans       &kp BSLH    &kp PIPE     &kp GRAVE     &kp TILDE    &kp UNDER     &kp DOWN_ARROW   &UA_UUML     &trans       &UA_OO       &UA_UU        &UA_IE          &UA_IQ
+&trans       &trans      &kp MINUS    &kp EQUAL     &kp PLUS     &kp LBRC      &kp LEFT_ARROW   &kp RBRC     &UA_NN       &UA_EE       &UA_II        &UA_AA          &trans
 &trans       &kp LT      &kp GT       &kp LBKT      &kp RBKT     &kp FSLH      &kp RIGHT_ARROW  &kp QUESTION &trans       &trans       &trans        &trans          &trans
 &trans       &trans      &trans       &trans        &trans       &trans        &trans           &trans       &trans       &trans       &trans        &trans
             >;
