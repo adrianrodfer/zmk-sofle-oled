@@ -1,6 +1,6 @@
 layout: {zmk_keyboard: eyelash_sofle}
 layers:
-  COLEMAK-DH:
+  CANARIA:
   - $$mdi:keyboard-esc$$
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
@@ -15,20 +15,20 @@ layers:
   - {t: '0', s: )}
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:keyboard-tab$$
-  - Q
   - W
-  - F
+  - L
+  - Y
   - P
   - B
   - $$mdi:arrow-down-bold$$
+  - F
   - J
-  - L
+  - O
   - U
-  - Y
   - {t: ;, s: ':'}
   - {t: '''', s: '"'}
   - $$mdi:apple-keyboard-option$$
-  - A
+  - C
   - R
   - S
   - T
@@ -38,20 +38,20 @@ layers:
   - N
   - E
   - I
-  - O
+  - A
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:apple-keyboard-shift$$
+  - Q
   - Z
-  - X
-  - C
-  - D
   - V
-  - $$mdi:arrow-right-bold$$
+  - D
   - K
+  - $$mdi:arrow-right-bold$$
+  - X
   - H
+  - {t: /, s: '?'}
   - {t: ',', s: <}
   - {t: ., s: '>'}
-  - {t: /, s: '?'}
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:volume-off$$
   - $$mdi:apple-keyboard-control$$
@@ -86,14 +86,14 @@ layers:
   - '~'
   - _
   - $$mdi:arrow-down-bold$$
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - '&UA_UU'
   - '&UA_UUML'
+  - {t: '$$mdi:transfer$$', type: trans}
+  - '&UA_OO'
+  - '&UA_UU'
   - '&UA_IE'
   - '&UA_IQ'
   - {t: '$$mdi:transfer$$', type: trans}
-  - '&UA_AA'
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '-', s: _}
   - {t: '=', s: +}
   - +
@@ -103,7 +103,7 @@ layers:
   - '&UA_NN'
   - '&UA_EE'
   - '&UA_II'
-  - '&UA_OO'
+  - '&UA_AA'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - <
