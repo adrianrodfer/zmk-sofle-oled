@@ -39,7 +39,7 @@ layers:
   - E
   - I
   - A
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {t: '''', s: '"'}
   - $$mdi:apple-keyboard-shift$$
   - Q
   - Z
@@ -104,7 +104,7 @@ layers:
   - '&UA_EE'
   - '&UA_II'
   - '&UA_AA'
-  - {t: '''', s: '"'}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - <
   - '>'
