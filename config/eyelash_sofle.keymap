@@ -135,7 +135,7 @@
             bindings = <
 &kp GRAVE    &kp LS(N1)  &kp LS(N2)   &kp LS(N3)   &kp LS(N4)   &kp LS(N5)    &kp UP_ARROW     &kp LS(N6)   &kp LS(N7)   &kp LS(N8)   &kp LS(N9)    &kp LS(N0)      &kp DELETE
 &trans       &kp BSLH    &kp PIPE     &kp GRAVE     &kp TILDE    &kp UNDER     &kp DOWN_ARROW   &UA_UUML     &trans       &UA_OO       &UA_UU        &kp RBRC     &trans
-&trans       &kp MINUS   &kp EQUAL    &kp PLUS     &kp LBKT      &kp RBKT       &kp LEFT_ARROW   &kp LBRC     &UA_NN       &UA_EE       &UA_II        &UA_AA          &trans
+&trans       &kp MINUS   &kp EQUAL    &kp PLUS     &kp LBKT      &kp RBKT       &kp LEFT_ARROW   &kp LBRC     &UA_NN       &UA_EE       &UA_II        &UA_AA          &kp APOS
 &trans       &kp LT      &kp GT       &kp FSLH      &kp QUESTION  &trans        &kp RIGHT_ARROW  &UA_IE       &UA_IQ       &trans       &trans        &trans          &trans
 &trans       &trans      &trans       &trans        &trans       &trans        &trans           &trans       &trans       &trans       &trans        &trans
             >;
