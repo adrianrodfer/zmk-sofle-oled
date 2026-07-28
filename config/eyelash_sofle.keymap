@@ -63,14 +63,6 @@
         };
     };
 
-    conditional_layers {
-        compatible = "zmk,conditional-layers";
-        bt_rgb_layer {
-            if-layers = <1 2>;
-            then-layer = <3>;
-        };
-    };
-
     macros {
         UA_AA: UA_AA {
             compatible = "zmk,behavior-macro";
@@ -194,7 +186,7 @@
 &trans       &kp BSLH    &kp PIPE     &kp GRAVE     &kp TILDE    &kp UNDER     &kp DOWN_ARROW   &UA_UUML     &trans       &UA_OO       &UA_UU        &kp RBRC     &trans
 &trans       &kp MINUS   &kp EQUAL    &kp PLUS     &kp LBKT      &kp RBKT       &kp LEFT_ARROW   &kp LBRC     &UA_NN       &UA_EE       &UA_II        &UA_AA          &trans
 &trans       &kp LT      &kp GT       &kp FSLH      &kp QUESTION  &trans        &kp RIGHT_ARROW  &UA_IE       &UA_IQ       &trans       &trans        &trans          &trans
-&trans       &trans      &trans       &trans        &trans       &trans        &trans           &trans       &trans       &trans       &trans        &trans
+&trans       &trans      &trans       &trans        &mo 3       &trans        &trans           &trans       &trans       &trans       &trans        &trans
             >;
 
             display-name = "ACC+SYM";
@@ -207,7 +199,7 @@
 &trans            &kp PG_UP         &kp HOME          &kp UP            &kp END           &trans            &mmv MOVE_DOWN     &trans   &trans  &trans  &trans  &trans   &trans
 &trans            &trans            &kp LEFT          &kp DOWN          &kp RIGHT         &trans            &mmv MOVE_LEFT     &trans   &trans  &trans  &trans  &trans   &trans
 &mkp LCLK         &ctrl_z           &ctrl_x           &ctrl_c           &ctrl_v           &trans            &mmv MOVE_RIGHT    &trans   &trans  &trans  &trans  &trans   &trans
-&trans            &trans            &trans            &trans            &trans            &trans             &mkp LCLK          &mkp RCLK  &trans  &trans  &trans  &trans
+&trans            &trans            &trans            &trans            &trans            &trans             &mkp LCLK      &mkp RCLK      &mo 3        &trans    &trans    &trans
             >;
 
             display-name = "NAV+SYS";
