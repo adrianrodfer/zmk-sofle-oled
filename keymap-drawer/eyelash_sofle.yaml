@@ -50,8 +50,8 @@ layers:
   - X
   - H
   - {t: ',', s: <}
-  - {t: /, s: '?'}
   - {t: ., s: '>'}
+  - {t: /, s: '?'}
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:volume-off$$
   - $$mdi:apple-keyboard-control$$
