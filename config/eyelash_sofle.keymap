@@ -139,28 +139,28 @@
             #binding-cells = <0>;
             wait-ms = <5>;
             tap-ms = <5>;
-            bindings = <&kp LG(Z)>;
+            bindings = <&kp LC(Z)>;
         };
         ctrl_x: ctrl_x {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <5>;
             tap-ms = <5>;
-            bindings = <&kp LG(X)>;
+            bindings = <&kp LC(X)>;
         };
         ctrl_c: ctrl_c {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <5>;
             tap-ms = <5>;
-            bindings = <&kp LG(C)>;
+            bindings = <&kp LC(C)>;
         };
         ctrl_v: ctrl_v {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <5>;
             tap-ms = <5>;
-            bindings = <&kp LG(V)>;
+            bindings = <&kp LC(V)>;
         };
     };
 
