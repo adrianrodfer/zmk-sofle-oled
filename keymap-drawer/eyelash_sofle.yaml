@@ -73,8 +73,8 @@ layers:
   - $
   - '&'
   - $$mdi:arrow-up-bold$$
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '|'
+  - _
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -92,7 +92,7 @@ layers:
   - Ú
   - Ü
   - {t: '$$mdi:transfer$$', type: trans}
-  - _
+  - {t: '$$mdi:transfer$$', type: trans}
   - '='
   - {t: '-', s: _}
   - ':'
@@ -105,7 +105,7 @@ layers:
   - Í
   - Á
   - {t: '$$mdi:transfer$$', type: trans}
-  - '|'
+  - {t: '$$mdi:transfer$$', type: trans}
   - /
   - '*'
   - {t: +, s: '*'}
