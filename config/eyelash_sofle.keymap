@@ -118,14 +118,14 @@
             #binding-cells = <0>;
             wait-ms = <5>;
             tap-ms = <5>;
-            bindings = <&kp RALT &kp N1>;
+            bindings = <&kp RA(N1)>;
         };
         UA_IQ: UA_IQ {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <5>;
             tap-ms = <5>;
-            bindings = <&kp RALT &kp FSLH>;
+            bindings = <&kp RA(FSLH)>;
         };
         UA_BTICK: UA_BTICK {
             compatible = "zmk,behavior-macro";
@@ -167,42 +167,49 @@
             #binding-cells = <0>;
             wait-ms = <5>;
             tap-ms = <5>;
-            bindings = <&kp RALT &kp APOS>;
+            bindings = <&kp RA(APOS)>;
         };
         UA_RBRC: UA_RBRC {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <5>;
             tap-ms = <5>;
-            bindings = <&kp RALT &kp BSLH>;
+            bindings = <&kp RA(BSLH)>;
         };
         UA_LBRKT: UA_LBRKT {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <5>;
             tap-ms = <5>;
-            bindings = <&kp RALT &kp LBKT>;
+            bindings = <&kp RA(LBKT)>;
         };
         UA_RBRKT: UA_RBRKT {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <5>;
             tap-ms = <5>;
-            bindings = <&kp RALT &kp RBKT>;
+            bindings = <&kp RA(RBKT)>;
         };
         UA_AT: UA_AT {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <5>;
             tap-ms = <5>;
-            bindings = <&kp RALT &kp N2>;
+            bindings = <&kp RA(N2)>;
         };
         UA_HASH: UA_HASH {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <5>;
             tap-ms = <5>;
-            bindings = <&kp RALT &kp N3>;
+            bindings = <&kp RA(N3)>;
+        };
+        UA_PIPE: UA_PIPE {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <5>;
+            tap-ms = <5>;
+            bindings = <&kp RA(N1)>;
         };
     };
 
@@ -227,7 +234,7 @@
 &kp LS(N5)   &kp LS(N2)  &UA_AT       &UA_HASH     &kp LS(N4)   &kp LS(N6)    &kp UP_ARROW     &trans       &trans       &trans       &trans       &trans      &kp DELETE
 &UA_LBRC     &kp LS(N8)  &kp LS(N9)  &UA_LBRKT    &UA_RBRKT    &UA_RBRC      &kp DOWN_ARROW   &UA_UUML     &trans       &UA_OO       &UA_UU        &trans      &trans
 &kp LS(FSLH) &kp LS(N0)  &kp FSLH    &kp LS(DOT)  &kp LS(N1)   &kp LS(MINUS)  &kp LEFT_ARROW   &UA_IE       &UA_IQ       &UA_EE       &UA_II        &UA_AA          &trans
-&kp PIPE     &kp LS(N7)  &kp LS(RBKT) &kp RBKT     &kp LT       &kp LS(LT)     &kp RIGHT_ARROW  &trans       &trans       &trans       &trans        &trans          &trans
+&UA_PIPE     &kp LS(N7)  &kp LS(RBKT) &kp RBKT     &kp NON_US_BACKSLASH       &kp LS(NON_US_BACKSLASH)     &kp RIGHT_ARROW  &trans       &trans       &trans       &trans        &trans          &trans
 &trans       &trans      &trans       &trans        &mo 3       &trans        &trans           &trans       &trans       &trans       &trans        &trans
             >;
 

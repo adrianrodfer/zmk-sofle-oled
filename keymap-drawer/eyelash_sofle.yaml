@@ -105,14 +105,14 @@ layers:
   - '&UA_II'
   - '&UA_AA'
   - {t: '$$mdi:transfer$$', type: trans}
-  - '|'
-  - {t: Sft+7, s: Sft+/}
-  - {t: Sft++, s: Sft+*}
-  - {t: +, s: '*'}
-  - {t: ',', s: ;}
-  - {t: 'Sft+,', s: Sft+;}
-  - $$mdi:arrow-right-bold$$
   - {t: '$$mdi:transfer$$', type: trans}
+  - '&UA_PIPE'
+  - '/'
+  - '*'
+  - '+'
+  - '<'
+  - '>'
+  - $$mdi:arrow-right-bold$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
