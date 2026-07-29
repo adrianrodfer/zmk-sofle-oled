@@ -66,12 +66,12 @@ layers:
   - $$mdi:backspace-reverse-outline$$
   - $$mdi:apple-keyboard-option$$
   SYM+ACC:
-  - '%'
-  - '"'
-  - '&UA_AT'
-  - '&UA_HASH'
-  - $
-  - '&'
+  - {t: Sft+5, s: Sft+%}
+  - {t: Sft+2, s: Sft+"}
+  - '@'
+  - '#'
+  - {t: Sft+4, s: Sft+$}
+  - {t: Sft+6, s: Sft+&}
   - $$mdi:arrow-up-bold$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -79,12 +79,12 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:backspace-reverse-outline$$
-  - '&UA_LBRC'
-  - '('
-  - ')'
-  - '&UA_LBRKT'
-  - '&UA_RBRKT'
-  - '&UA_RBRC'
+  - '{'
+  - {t: Sft+8, s: Sft+(}
+  - {t: Sft+9, s: Sft+)}
+  - '['
+  - ']'
+  - '}'
   - $$mdi:arrow-down-bold$$
   - '&UA_IQ'
   - {t: '$$mdi:transfer$$', type: trans}
@@ -92,12 +92,12 @@ layers:
   - '&UA_UU'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - _
-  - '='
-  - '-'
-  - ':'
-  - '!'
-  - '?'
+  - {t: Sft+-, s: Sft+_}
+  - {t: Sft+0, s: Sft+=}
+  - {t: '-', s: _}
+  - {t: Sft+., s: 'Sft+:'}
+  - {t: Sft+1, s: Sft+!}
+  - {t: Sft+', s: 'Sft+?'}
   - $$mdi:arrow-left-bold$$
   - '&UA_IE'
   - '&UA_UUML'
@@ -126,7 +126,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
