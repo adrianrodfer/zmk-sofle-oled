@@ -232,8 +232,8 @@
         layer_1 {
             bindings = <
 &kp LS(N5)   &kp LS(N2)  &UA_AT       &UA_HASH     &kp LS(N4)   &kp LS(N6)    &kp UP_ARROW     &trans       &trans       &trans       &trans       &trans      &kp DELETE
-&UA_LBRC     &kp LS(N8)  &kp LS(N9)  &UA_LBRKT    &UA_RBRKT    &UA_RBRC      &kp DOWN_ARROW   &UA_IQ     &trans       &UA_OO       &UA_UU        &trans      &trans
-&kp LS(FSLH) &kp LS(N0)  &kp FSLH    &kp LS(DOT)  &kp LS(MINUS)   &kp LS(N1)  &kp LEFT_ARROW   &UA_IE       &UA_UUML       &UA_EE       &UA_II        &UA_AA          &trans
+&UA_LBRC     &kp LS(N8)  &kp LS(N9)  &UA_LBRKT    &UA_RBRKT    &UA_RBRC      &kp DOWN_ARROW   &trans     &trans       &UA_OO       &UA_UU        &UA_UUML    &trans
+&kp LS(FSLH) &kp LS(N0)  &kp FSLH    &kp LS(DOT)  &kp LS(MINUS)   &kp LS(N1)  &kp LEFT_ARROW   &UA_IE       &UA_IQ         &UA_EE       &UA_II        &UA_AA          &trans
 &UA_PIPE     &kp LS(N7)  &kp LS(RBKT) &kp RBKT     &kp NON_US_BACKSLASH       &kp LS(NON_US_BACKSLASH)     &kp RIGHT_ARROW  &trans       &trans       &trans       &trans        &trans          &trans
 &trans       &trans      &trans       &trans        &mo 3       &trans        &trans           &trans       &trans       &trans       &trans        &trans
             >;

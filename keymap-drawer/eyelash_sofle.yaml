@@ -86,11 +86,11 @@ layers:
   - ']'
   - '}'
   - $$mdi:arrow-down-bold$$
-  - ¿
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - Ó
   - Ú
-  - {t: '$$mdi:transfer$$', type: trans}
+  - Ü
   - {t: '$$mdi:transfer$$', type: trans}
   - _
   - '='
@@ -100,7 +100,7 @@ layers:
   - '!'
   - $$mdi:arrow-left-bold$$
   - ¡
-  - Ü
+  - ¿
   - É
   - Í
   - Á
