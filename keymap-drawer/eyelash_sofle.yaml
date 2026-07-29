@@ -3,17 +3,17 @@ layers:
   CANARIA:
   - $$mdi:keyboard-esc$$
   - {t: '1', s: '!'}
-  - {t: '2', s: '@'}
-  - {t: '3', s: '#'}
+  - {t: '2', s: '"'}
+  - {t: '3', s: '·'}
   - {t: '4', s: $}
   - {t: '5', s: '%'}
   - $$mdi:arrow-up-bold$$
-  - {t: '6', s: ^}
-  - {t: '7', s: '&'}
-  - {t: '8', s: '*'}
-  - {t: '9', s: (}
-  - {t: '0', s: )}
-  - {t: '-', s: _}
+  - {t: '6', s: '&'}
+  - {t: '7', s: '/'}
+  - {t: '8', s: '('}
+  - {t: '9', s: ')'}
+  - {t: '0', s: '='}
+  - {t: "'", s: '?'}
   - $$mdi:keyboard-tab$$
   - W
   - L
@@ -25,7 +25,7 @@ layers:
   - J
   - O
   - U
-  - {t: ;, s: ':'}
+  - {t: ñ, s: 'Ñ'}
   - '&UA_BTICK'
   - $$mdi:apple-keyboard-control$$
   - C
@@ -39,7 +39,7 @@ layers:
   - E
   - I
   - A
-  - {t: '''', s: '"'}
+  - {t: '´', s: '¨'}
   - $$mdi:apple-keyboard-shift$$
   - Q
   - Z
@@ -49,14 +49,14 @@ layers:
   - $$mdi:arrow-right-bold$$
   - X
   - H
-  - {t: ',', s: <}
-  - {t: ., s: '>'}
-  - {t: /, s: '?'}
+  - {t: ',', s: ';'}
+  - {t: ., s: ':'}
+  - {t: -, s: _}
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:volume-off$$
   - $$mdi:apple-keyboard-control$$
-  - LGUI
   - $$mdi:apple-keyboard-option$$
+  - LGUI
   - NAV+SYS
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
@@ -66,23 +66,23 @@ layers:
   - $$mdi:backspace-reverse-outline$$
   - $$mdi:apple-keyboard-option$$
   ACC+SYM:
-  - {t: '`', s: '~'}
+  - {t: 'º', s: 'ª'}
   - {t: Sft+1, s: Sft+!}
-  - {t: Sft+2, s: Sft+@}
-  - {t: Sft+3, s: Sft+#}
+  - {t: Sft+2, s: 'Sft+"'}
+  - {t: Sft+3, s: Sft+·}
   - {t: Sft+4, s: Sft+$}
   - {t: Sft+5, s: Sft+%}
   - $$mdi:arrow-up-bold$$
-  - {t: Sft+6, s: Sft+^}
-  - {t: Sft+7, s: Sft+&}
-  - {t: Sft+8, s: Sft+*}
-  - {t: Sft+9, s: Sft+(}
-  - {t: Sft+0, s: Sft+)}
+  - {t: Sft+6, s: Sft+&}
+  - {t: Sft+7, s: Sft+/}
+  - {t: Sft+8, s: Sft+(}
+  - {t: Sft+9, s: Sft+)}
+  - {t: Sft+0, s: Sft+=}
   - $$mdi:backspace-reverse-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: \, s: '|'}
+  - {t: ç, s: 'Ç'}
   - '|'
-  - {t: '`', s: '~'}
+  - {t: 'º', s: 'ª'}
   - '~'
   - _
   - $$mdi:arrow-down-bold$$
@@ -93,11 +93,11 @@ layers:
   - '}'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '-', s: _}
-  - {t: '=', s: +}
+  - {t: "'", s: '?'}
+  - {t: '¡', s: '¿'}
   - +
-  - {t: '[', s: '{'}
-  - {t: ']', s: '}'}
+  - {t: '`', s: '^'}
+  - {t: '+', s: '*'}
   - $$mdi:arrow-left-bold$$
   - '{'
   - '&UA_NN'
@@ -108,7 +108,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - <
   - '>'
-  - {t: /, s: '?'}
+  - {t: -, s: _}
   - '?'
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:arrow-right-bold$$
