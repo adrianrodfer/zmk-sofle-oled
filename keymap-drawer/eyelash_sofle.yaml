@@ -96,8 +96,8 @@ layers:
   - {t: Sft+0, s: Sft+=}
   - {t: '-', s: _}
   - {t: Sft+., s: 'Sft+:'}
-  - {t: Sft+1, s: Sft+!}
   - {t: Sft+', s: 'Sft+?'}
+  - {t: Sft+1, s: Sft+!}
   - $$mdi:arrow-left-bold$$
   - '&UA_IE'
   - '&UA_UUML'
