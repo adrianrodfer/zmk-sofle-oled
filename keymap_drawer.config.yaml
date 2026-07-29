@@ -263,6 +263,8 @@ parse_config:
     "&UA_AT": "@"
     "&UA_HASH": "#"
     "&UA_PIPE": "|"
+    "&UA_BKSL": "\\"
+    "&UA_TILDE2": "~"
 
     # Cut/Copy/Paste/Undo
     "&ctrl_z": Ctrl+Z
