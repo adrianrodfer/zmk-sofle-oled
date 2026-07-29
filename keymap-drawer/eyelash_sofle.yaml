@@ -25,7 +25,7 @@ layers:
   - J
   - O
   - U
-   - Ñ
+  - {t: ñ, s: Ñ}
   - '`'
   - $$mdi:apple-keyboard-control$$
   - C
@@ -112,7 +112,7 @@ layers:
   - {t: <, s: '>'}
   - '>'
   - $$mdi:arrow-right-bold$$
-  - "'|'"
+  - '|'
   - _
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -126,7 +126,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
