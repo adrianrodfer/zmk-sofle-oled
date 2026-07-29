@@ -333,8 +333,12 @@ parse_config:
     DOUBLE_QUOTES: '"'
     DQT: '"'
 
-    LESS_THAN: <
-    LT: <
+    LESS_THAN:
+      tap: ","
+      shifted: ";"
+    LT:
+      tap: ","
+      shifted: ";"
     PERIOD: '.'
     DOT:
       tap: "."
@@ -342,8 +346,12 @@ parse_config:
     COMMA:
       tap: ","
       shifted: ";"
-    GREATER_THAN: ">"
-    GT: ">"
+    GREATER_THAN:
+      tap: "."
+      shifted: ":"
+    GT:
+      tap: "."
+      shifted: ":"
     LEFT_BRACKET:
       tap: "`"
       shifted: "^"
