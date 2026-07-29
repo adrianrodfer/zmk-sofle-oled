@@ -264,6 +264,12 @@ parse_config:
     "&UA_HASH": "#"
     "&UA_PIPE": "|"
 
+    # Cut/Copy/Paste/Undo
+    "&ctrl_z": Ctrl+Z
+    "&ctrl_x": Ctrl+X
+    "&ctrl_c": Ctrl+C
+    "&ctrl_v": Ctrl+V
+
   # ZMK
   zmk_keycode_map:
     # Symbols

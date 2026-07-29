@@ -25,7 +25,7 @@ layers:
   - J
   - O
   - U
-  - {t: ñ, s: Ñ}
+  - Ñ
   - '&UA_BTICK'
   - $$mdi:apple-keyboard-control$$
   - C
@@ -169,10 +169,10 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - '&ctrl_z'
-  - '&ctrl_x'
-  - '&ctrl_c'
-  - '&ctrl_v'
+  - 'Ctrl+Z'
+  - 'Ctrl+X'
+  - 'Ctrl+C'
+  - 'Ctrl+V'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:transfer$$', type: trans}
