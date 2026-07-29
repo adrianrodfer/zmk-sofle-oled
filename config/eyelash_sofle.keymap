@@ -199,7 +199,7 @@
 &trans            &kp PG_UP         &kp HOME          &kp UP            &kp END           &trans            &mmv MOVE_DOWN     &trans   &trans  &trans  &trans  &trans   &trans
 &trans            &trans            &kp LEFT          &kp DOWN          &kp RIGHT         &trans            &mmv MOVE_LEFT     &trans   &trans  &trans  &trans  &trans   &trans
 &trans            &ctrl_z           &ctrl_x           &ctrl_c           &ctrl_v           &trans            &mmv MOVE_RIGHT    &trans   &trans  &trans  &trans  &trans   &trans
-&trans            &trans            &trans            &trans            &trans            &trans             &trans            &trans            &mo 3        &trans    &trans    &trans
+&trans            &trans            &trans            &trans            &trans            &trans             &mkp LCLK      &trans            &mo 3        &trans    &trans    &trans
             >;
 
             display-name = "NAV+SYS";
