@@ -270,6 +270,32 @@ parse_config:
     "&ctrl_c": Ctrl+C
     "&ctrl_v": Ctrl+V
 
+    # Layer 1 — shifted keycodes (display clean symbol, not Sft+)
+    "&kp LS(N5)": "%"
+    "&kp LS(N2)": '"'
+    "&kp LS(N4)": $
+    "&kp LS(N6)": "&"
+    "&kp LS(N8)": "("
+    "&kp LS(N9)": ")"
+    "&kp LS(N0)": "="
+    "&kp LS(N1)": "!"
+    "&kp LS(N7)": /
+    "&kp LS(MINUS)": "?"
+    "&kp LS(FSLH)": _
+    "&kp LS(DOT)": ":"
+    "&kp LS(RBKT)": "*"
+    "&kp LS(NON_US_BACKSLASH)": ">"
+    # Layer 1 — accent macros
+    "&UA_IE": "¡"
+    "&UA_IQ": "¿"
+    "&UA_UUML": "Ü"
+    "&UA_OO": "Ó"
+    "&UA_UU": "Ú"
+    "&UA_EE": "É"
+    "&UA_II": "Í"
+    "&UA_AA": "Á"
+    "&UA_BTICK": "`"
+
   # ZMK
   zmk_keycode_map:
     # Symbols
