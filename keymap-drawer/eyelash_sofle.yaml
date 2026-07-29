@@ -25,7 +25,7 @@ layers:
   - J
   - O
   - U
-  - {t: ñ, s: Ñ}
+   - Ñ
   - '`'
   - $$mdi:apple-keyboard-control$$
   - C
