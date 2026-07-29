@@ -255,6 +255,14 @@ parse_config:
     "&bootloader":
       tap: $$mdi:progress-download$$
 
+    # Macros — Spanish AltGr combos
+    "&UA_LBRC": "{"
+    "&UA_RBRC": "}"
+    "&UA_LBRKT": "["
+    "&UA_RBRKT": "]"
+    "&UA_AT": "@"
+    "&UA_HASH": "#"
+
   # ZMK
   zmk_keycode_map:
     # Symbols

@@ -61,46 +61,46 @@ layers:
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - ACC+SYM
+  - SYM+ACC
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:backspace-reverse-outline$$
   - $$mdi:apple-keyboard-option$$
-  ACC+SYM:
-  - {t: º, s: ª}
-  - {t: Sft+1, s: Sft+!}
-  - {t: Sft+2, s: Sft+"}
-  - {t: Sft+3, s: Sft+·}
-  - {t: Sft+4, s: Sft+$}
-  - {t: Sft+5, s: Sft+%}
+  SYM+ACC:
+  - '%'
+  - '"'
+  - '&UA_AT'
+  - '&UA_HASH'
+  - $
+  - '&'
   - $$mdi:arrow-up-bold$$
-  - {t: Sft+6, s: Sft+&}
-  - {t: Sft+7, s: Sft+/}
-  - {t: Sft+8, s: Sft+(}
-  - {t: Sft+9, s: Sft+)}
-  - {t: Sft+0, s: Sft+=}
-  - $$mdi:backspace-reverse-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: ç, s: Ç}
-  - '|'
-  - {t: º, s: ª}
-  - '~'
-  - _
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:backspace-reverse-outline$$
+  - '&UA_LBRC'
+  - '('
+  - ')'
+  - '&UA_LBRKT'
+  - '&UA_RBRKT'
+  - '&UA_RBRC'
   - $$mdi:arrow-down-bold$$
   - '&UA_UUML'
   - {t: '$$mdi:transfer$$', type: trans}
   - '&UA_OO'
   - '&UA_UU'
-  - '}'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '''', s: '?'}
-  - {t: ¡, s: ¿}
-  - +
-  - {t: '`', s: ^}
-  - {t: +, s: '*'}
+  - _
+  - '='
+  - '-'
+  - ':'
+  - '!'
+  - '?'
   - $$mdi:arrow-left-bold$$
-  - '{'
-  - '&UA_NN'
+  - '&UA_IE'
+  - '&UA_IQ'
   - '&UA_EE'
   - '&UA_II'
   - '&UA_AA'
@@ -112,8 +112,8 @@ layers:
   - '?'
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:arrow-right-bold$$
-  - '&UA_IE'
-  - '&UA_IQ'
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
