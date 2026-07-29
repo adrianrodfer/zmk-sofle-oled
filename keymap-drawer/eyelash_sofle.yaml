@@ -26,7 +26,7 @@ layers:
   - O
   - U
   - {t: ñ, s: Ñ}
-  - '&UA_BTICK'
+  - '`'
   - $$mdi:apple-keyboard-control$$
   - C
   - R
@@ -80,38 +80,40 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:backspace-reverse-outline$$
   - '{'
-  - '('
-  - ')'
+  - (
+  - )
   - '['
   - ']'
   - '}'
   - $$mdi:arrow-down-bold$$
-  - '¿'
+  - ¿
   - {t: '$$mdi:transfer$$', type: trans}
-  - 'Ó'
-  - 'Ú'
+  - Ó
+  - Ú
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - _
   - '='
-  - '-'
+  - {t: '-', s: _}
   - ':'
   - '?'
   - '!'
   - $$mdi:arrow-left-bold$$
-  - '¡'
-  - 'Ü'
-  - 'É'
-  - 'Í'
-  - 'Á'
+  - ¡
+  - Ü
+  - É
+  - Í
+  - Á
   - {t: '$$mdi:transfer$$', type: trans}
   - '|'
   - /
   - '*'
-  - +
-  - '<'
+  - {t: +, s: '*'}
+  - {t: <, s: '>'}
   - '>'
   - $$mdi:arrow-right-bold$$
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
