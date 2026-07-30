@@ -216,7 +216,7 @@
             #binding-cells = <0>;
             wait-ms = <5>;
             tap-ms = <5>;
-            bindings = <&kp RA(NON_US_BACKSLASH)>;
+            bindings = <&kp RA(NON_US_BSLH)>;
         };
         UA_TILDE2: UA_TILDE2 {
             compatible = "zmk,behavior-macro";
