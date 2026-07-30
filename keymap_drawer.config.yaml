@@ -625,3 +625,7 @@ parse_config:
       key:
         shifted: "Ñ"
         hold: "ñ"
+    combo_capslock:
+      align: top
+      key:
+        tap: $$mdi:apple-keyboard-caps$$
