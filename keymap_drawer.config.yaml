@@ -266,6 +266,10 @@ parse_config:
     "&UA_BKSL": "\\"
     "&UA_TILDE2": "~"
 
+    # Web nav
+    "&www_back": "⇤"
+    "&www_forward": "⇥"
+
     # Cut/Copy/Paste/Undo
     "&ctrl_z": Ctrl+Z
     "&ctrl_x": Ctrl+X
