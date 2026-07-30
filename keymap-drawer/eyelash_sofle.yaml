@@ -115,8 +115,8 @@ layers:
   - '|'
   - _
   - \
-  - {t: '`', s: ^}
-  - {t: Sft+`, s: Sft+^}
+  - '`'
+  - ^
   - '~'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
