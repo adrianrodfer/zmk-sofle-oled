@@ -329,4 +329,4 @@ combos:
 - p: [14, 28, 40]
   k: '&soft_off'
 - p: [39, 51]
-  k: '&kp CAPS'
+  k: $$mdi:apple-keyboard-caps$$
