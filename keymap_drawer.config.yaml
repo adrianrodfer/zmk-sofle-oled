@@ -287,6 +287,8 @@ parse_config:
     "&kp LS(DOT)": ":"
     "&kp LS(RBKT)": "*"
     "&kp LS(NON_US_BACKSLASH)": ">"
+    "&kp LS(LBKT)": "^"
+    "&kp LBKT": "`"
     # Layer 1 — accent macros
     "&UA_IE": "¡"
     "&UA_IQ": "¿"
