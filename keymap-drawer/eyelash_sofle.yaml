@@ -58,8 +58,8 @@ layers:
   - $$mdi:apple-keyboard-option$$
   - LGUI
   - NAV+SYS
-  - $$mdi:keyboard-space$$
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-control$$'}
+  - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-control$$'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - SYM+ACC
   - {t: '$$mdi:backspace$$', type: backspace}
