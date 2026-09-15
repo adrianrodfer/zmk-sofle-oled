@@ -171,7 +171,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {h: 'Ctrl+Shift+Z al mantener', t: 'Ctrl+Z'}
+  - {t: Ctl+Z, h: Ctl+Sft+Z}
   - Ctrl+X
   - Ctrl+C
   - Ctrl+V
