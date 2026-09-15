@@ -175,7 +175,7 @@ layers:
   - Ctrl+X
   - Ctrl+C
   - Ctrl+V
-  - {h: 'Ctrl+Shift+F al mantener', t: 'Ctrl+F'}
+  - {t: Ctl+F, h: Ctl+Sft+F}
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - $$mdi:printer-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
