@@ -72,6 +72,15 @@
             retro-tap;
             bindings = <&kp>, <&kp>;
         };
+
+        search_ht: search_ht {
+            compatible = "zmk,behavior-hold-tap";
+            #binding-cells = <2>;
+            flavor = "tap-preferred";
+            tapping-term-ms = <220>;
+            quick-tap-ms = <150>;
+            bindings = <&kp>, <&kp>;
+        };
     };
 
     combos {
@@ -300,7 +309,7 @@
 &kp F12           &kp F1            &kp F2            &kp F3            &kp F4            &kp F5            &mmv MOVE_UP       &kp F6   &kp F7  &kp F8  &kp F9  &kp F10  &kp F11
 &trans            &kp PG_UP         &kp HOME          &kp UP            &kp END           &kp PG_DN         &mmv MOVE_DOWN     &trans   &trans  &trans  &trans  &trans   &trans
 &trans            &www_back         &kp LEFT          &kp DOWN          &kp RIGHT         &www_forward      &mmv MOVE_LEFT     &trans   &trans  &trans  &trans  &trans   &trans
-&trans            &ctrl_z           &ctrl_x           &ctrl_c           &ctrl_v           &kp PSCRN         &mmv MOVE_RIGHT    &trans   &trans  &trans  &trans  &trans   &trans
+&trans            &ctrl_z           &ctrl_x           &ctrl_c           &ctrl_v           &search_ht LC(LS(F)) LC(F)         &mmv MOVE_RIGHT    &kp PSCRN   &trans  &trans  &trans  &trans   &trans
 &trans            &trans            &trans            &trans            &trans            &trans             &mkp LCLK      &trans            &mo 3        &trans    &trans    &trans
             >;
 
