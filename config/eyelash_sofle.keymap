@@ -284,7 +284,7 @@
 &kp TAB      &kp W       &kp L        &kp Y        &kp P        &kp B         &kp DOWN_ARROW   &kp F        &kp J        &kp O        &kp U         &kp SEMI        &UA_BTICK
 &kp LCTRL    &kp C       &kp R        &kp S        &kp T        &kp G         &kp LEFT_ARROW   &kp M        &kp N        &kp E        &kp I         &kp A           &kp APOS
 &kp LSHFT    &kp Q       &kp Z        &kp V        &kp D        &kp K         &kp RIGHT_ARROW  &kp X        &kp H        &kp COMMA    &kp DOT       &kp FSLH         &kp RSHFT
-&kp C_MUTE   &kp LCTRL   &kp LALT     &kp LGUI     &mo 2        &spc_ctrl LCTRL SPACE     &kp ENTER        &ent_ctrl LCTRL ENTER    &mo 1    &kp BACKSPACE    &kp DELETE      &kp RALT
+&kp C_MUTE   &kp PSCRN   &kp LALT     &kp LGUI     &mo 2        &spc_ctrl LCTRL SPACE     &kp ENTER        &ent_ctrl LCTRL ENTER    &mo 1    &kp BACKSPACE    &kp DELETE      &kp RALT
             >;
 
             sensor-bindings = <&scroll_encoder>;
@@ -309,7 +309,7 @@
 &kp F12           &kp F1            &kp F2            &kp F3            &kp F4            &kp F5            &mmv MOVE_UP       &kp F6   &kp F7  &kp F8  &kp F9  &kp F10  &kp F11
 &trans            &kp PG_UP         &kp HOME          &kp UP            &kp END           &kp PG_DN         &mmv MOVE_DOWN     &trans   &trans  &trans  &trans  &trans   &trans
 &trans            &www_back         &kp LEFT          &kp DOWN          &kp RIGHT         &www_forward      &mmv MOVE_LEFT     &trans   &trans  &trans  &trans  &trans   &trans
-&trans            &ctrl_z           &ctrl_x           &ctrl_c           &ctrl_v           &search_ht LC(LS(F)) LC(F)         &mmv MOVE_RIGHT    &kp PSCRN   &trans  &trans  &trans  &trans   &trans
+&trans            &ctrl_z           &ctrl_x           &ctrl_c           &ctrl_v           &search_ht LC(LS(F)) LC(F)         &mmv MOVE_RIGHT    &trans    &trans  &trans  &trans  &trans   &trans
 &trans            &trans            &trans            &trans            &trans            &trans             &mkp LCLK      &trans            &mo 3        &trans    &trans    &trans
             >;
 

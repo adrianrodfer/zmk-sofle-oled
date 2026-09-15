@@ -54,7 +54,7 @@ layers:
   - {t: '-', s: _}
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:volume-off$$
-  - $$mdi:apple-keyboard-control$$
+  - $$mdi:printer-outline$$
   - $$mdi:apple-keyboard-option$$
   - LGUI
   - NAV+SYS
@@ -177,7 +177,7 @@ layers:
   - Ctrl+V
   - {t: Ctl+F, h: Ctl+Sft+F}
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
-  - $$mdi:printer-outline$$
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
