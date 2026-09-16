@@ -57,7 +57,7 @@ layers:
   - $$mdi:printer-outline$$
   - $$mdi:apple-keyboard-option$$
   - LGUI
-  - NAV+SYS
+  - {t: '$$mdi:keyboard-return$$', h: NAV+SYS}
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-control$$'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-control$$'}
