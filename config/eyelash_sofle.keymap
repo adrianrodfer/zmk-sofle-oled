@@ -62,10 +62,10 @@
             bindings = <&kp>, <&kp>;
         };
 
-        ent_ctrl: ent_ctrl {
+        ent_sft: ent_sft {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
-            flavor = "tap-preferred";
+            flavor = "balanced";
             tapping-term-ms = <200>;
             quick-tap-ms = <150>;
             bindings = <&kp>, <&kp>;
@@ -298,7 +298,7 @@
 &kp TAB      &kp W       &kp L        &kp Y        &kp P        &kp B         &kp DOWN_ARROW   &kp F        &kp J        &kp O        &kp U         &kp SEMI        &UA_BTICK
 &kp LCTRL    &kp C       &kp R        &kp S        &kp T        &kp G         &kp LEFT_ARROW   &kp M        &kp N        &kp E        &kp I         &kp A           &kp APOS
 &kp LSHFT    &kp Q       &kp Z        &kp V        &kp D        &kp K         &kp RIGHT_ARROW  &kp X        &kp H        &kp COMMA    &kp DOT       &kp FSLH         &kp RSHFT
-&kp C_MUTE   &kp PSCRN   &kp LALT     &kp LGUI     &nav_ent 2 ENTER  &spc_ctrl LCTRL SPACE     &kp ENTER        &ent_ctrl LCTRL ENTER    &sym_spc 1 SPACE    &kp BACKSPACE    &kp DELETE      &kp RALT
+&kp C_MUTE   &kp PSCRN   &kp LALT     &kp LGUI     &nav_ent 2 ENTER  &spc_ctrl LCTRL SPACE     &kp ENTER        &ent_sft LSHFT ENTER    &sym_spc 1 SPACE    &kp BACKSPACE    &kp DELETE      &kp RALT
             >;
 
             sensor-bindings = <&scroll_encoder>;
