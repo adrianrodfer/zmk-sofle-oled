@@ -265,6 +265,7 @@ parse_config:
     "&UA_PIPE": "|"
     "&UA_BKSL": "\\"
     "&UA_TILDE2": "~"
+    "&UA_CIRC": "^"
 
     # Web nav
     "&www_back": "⇤"
