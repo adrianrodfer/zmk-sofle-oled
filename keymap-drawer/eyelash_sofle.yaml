@@ -66,12 +66,12 @@ layers:
   - $$mdi:backspace-reverse-outline$$
   - $$mdi:apple-keyboard-option$$
   SYM+ACC:
-  - '%'
+  - '&'
   - '"'
   - '@'
   - '#'
   - $
-  - '&'
+  - '%'
   - $$mdi:arrow-up-bold$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -92,10 +92,10 @@ layers:
   - Ú
   - Ü
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
   - '='
-  - {t: '-', s: _}
   - ':'
+  - _
+  - /
   - '?'
   - '!'
   - $$mdi:arrow-left-bold$$
@@ -106,17 +106,17 @@ layers:
   - Á
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - /
-  - '*'
-  - {t: +, s: '*'}
   - {t: <, s: '>'}
   - '>'
-  - $$mdi:arrow-right-bold$$
+  - '*'
+  - {t: +, s: '*'}
   - '|'
-  - _
+  - $$mdi:arrow-right-bold$$
+  - {t: '$$mdi:transfer$$', type: trans}
   - \
-  - ^
   - '~'
+  - ^
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
