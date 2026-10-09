@@ -131,14 +131,16 @@
         td_lsft: td_lsft {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
-            tapping-term-ms = <200>;
+            // widened: 200ms default proved too tight for a deliberate double-tap
+            tapping-term-ms = <400>;
             bindings = <&kp LSHFT>, <&caps_word>;
         };
 
         td_rsft: td_rsft {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
-            tapping-term-ms = <200>;
+            // widened: 200ms default proved too tight for a deliberate double-tap
+            tapping-term-ms = <400>;
             bindings = <&kp RSHFT>, <&caps_word>;
         };
     };
