@@ -303,6 +303,12 @@ parse_config:
     "&UA_EE": "É"
     "&UA_II": "Í"
     "&UA_AA": "Á"
+    # Layer 1 — accent keys (mod-morph: tap=lowercase, shifted=uppercase)
+    "&mm_aa": "Á"
+    "&mm_ee": "É"
+    "&mm_ii": "Í"
+    "&mm_oo": "Ó"
+    "&mm_uu": "Ú"
     "&UA_BTICK": "`"
 
   # ZMK

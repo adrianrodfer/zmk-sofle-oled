@@ -88,6 +88,41 @@
             tapping-term-ms = <200>;
             bindings = <&mo>, <&kp>;
         };
+
+        mm_aa: mm_aa {
+            compatible = "zmk,behavior-mod-morph";
+            #binding-cells = <0>;
+            bindings = <&UA_AA>, <&UA_AA_UC>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
+
+        mm_ee: mm_ee {
+            compatible = "zmk,behavior-mod-morph";
+            #binding-cells = <0>;
+            bindings = <&UA_EE>, <&UA_EE_UC>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
+
+        mm_ii: mm_ii {
+            compatible = "zmk,behavior-mod-morph";
+            #binding-cells = <0>;
+            bindings = <&UA_II>, <&UA_II_UC>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
+
+        mm_oo: mm_oo {
+            compatible = "zmk,behavior-mod-morph";
+            #binding-cells = <0>;
+            bindings = <&UA_OO>, <&UA_OO_UC>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
+
+        mm_uu: mm_uu {
+            compatible = "zmk,behavior-mod-morph";
+            #binding-cells = <0>;
+            bindings = <&UA_UU>, <&UA_UU_UC>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
     };
 
     combos {
@@ -153,6 +188,41 @@
             wait-ms = <10>;
             tap-ms = <5>;
             bindings = <&kp LS(APOS)>, <&kp U>;
+        };
+        UA_AA_UC: UA_AA_UC {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <5>;
+            bindings = <&kp APOS>, <&kp LS(A)>;
+        };
+        UA_EE_UC: UA_EE_UC {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <5>;
+            bindings = <&kp APOS>, <&kp LS(E)>;
+        };
+        UA_II_UC: UA_II_UC {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <5>;
+            bindings = <&kp APOS>, <&kp LS(I)>;
+        };
+        UA_OO_UC: UA_OO_UC {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <5>;
+            bindings = <&kp APOS>, <&kp LS(O)>;
+        };
+        UA_UU_UC: UA_UU_UC {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <10>;
+            tap-ms = <5>;
+            bindings = <&kp APOS>, <&kp LS(U)>;
         };
         UA_IE: UA_IE {
             compatible = "zmk,behavior-macro";
@@ -308,8 +378,8 @@
         layer_1 {
             bindings = <
 &kp LS(N6)   &kp LS(N2)  &UA_AT       &UA_HASH     &kp LS(N4)   &kp LS(N5)    &kp UP_ARROW     &trans       &trans        &trans       &trans       &trans      &kp DELETE
-&UA_LBRC     &kp LS(N8)  &kp LS(N9)  &UA_LBRKT    &UA_RBRKT    &UA_RBRC      &kp DOWN_ARROW   &trans     &trans       &UA_OO       &UA_UU        &UA_UUML    &trans
-&kp LS(N0)   &kp LS(DOT) &kp LS(FSLH) &kp LS(N7)  &kp LS(MINUS) &kp LS(N1)  &kp LEFT_ARROW   &UA_IE       &UA_IQ       &UA_EE       &UA_II        &UA_AA          &trans
+&UA_LBRC     &kp LS(N8)  &kp LS(N9)  &UA_LBRKT    &UA_RBRKT    &UA_RBRC      &kp DOWN_ARROW   &trans     &trans       &mm_oo       &mm_uu        &UA_UUML    &trans
+&kp LS(N0)   &kp LS(DOT) &kp LS(FSLH) &kp LS(N7)  &kp LS(MINUS) &kp LS(N1)  &kp LEFT_ARROW   &UA_IE       &UA_IQ       &mm_ee       &mm_ii        &mm_aa          &trans
 &trans       &kp NON_US_BACKSLASH       &kp LS(NON_US_BACKSLASH)     &kp LS(RBKT) &kp RBKT     &UA_PIPE     &kp RIGHT_ARROW  &trans     &UA_BKSL     &UA_TILDE2    &UA_CIRC      &trans       &trans
 &trans       &trans      &trans       &trans        &mo 3       &trans        &trans           &trans       &trans       &trans       &trans        &trans
             >;
