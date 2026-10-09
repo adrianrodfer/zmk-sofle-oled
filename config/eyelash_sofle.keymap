@@ -29,10 +29,6 @@
 
 &soft_off { hold-time-ms = <2000>; };
 
-&caps_word {
-    continue-list = <UNDERSCORE LS(FSLH) BACKSPACE DELETE APOS>;
-};
-
 / {
     scroll_encoder: scroll_encoder {
         compatible = "zmk,behavior-sensor-rotate";
@@ -133,7 +129,7 @@
             #binding-cells = <0>;
             // widened: 200ms default proved too tight for a deliberate double-tap
             tapping-term-ms = <400>;
-            bindings = <&kp LSHFT>, <&caps_word>;
+            bindings = <&kp LSHFT>, <&kp CAPS>;
         };
 
         td_rsft: td_rsft {
@@ -141,7 +137,7 @@
             #binding-cells = <0>;
             // widened: 200ms default proved too tight for a deliberate double-tap
             tapping-term-ms = <400>;
-            bindings = <&kp RSHFT>, <&caps_word>;
+            bindings = <&kp RSHFT>, <&kp CAPS>;
         };
     };
 
@@ -151,11 +147,6 @@
         softoff {
             bindings = <&soft_off>;
             key-positions = <14 28 40>;
-        };
-
-        capslock {
-            bindings = <&kp CAPS>;
-            key-positions = <39 51>;
         };
     };
 
