@@ -200,6 +200,12 @@ parse_config:
       tap: $$mdi:mouse-scroll-wheel$$
     # Modifiers
     "&caps_word": $$mdi:alpha-w-box$$
+    "&td_lsft":
+      tap: $$mdi:apple-keyboard-shift$$
+      shifted: $$mdi:apple-keyboard-caps$$
+    "&td_rsft":
+      tap: $$mdi:apple-keyboard-shift$$
+      shifted: $$mdi:apple-keyboard-caps$$
     "&kt RSHIFT":
       tap: $$mdi:apple-keyboard-shift$$
       hold: $$mdi:toggle-switch$$
