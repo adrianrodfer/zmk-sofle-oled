@@ -40,7 +40,7 @@ layers:
   - I
   - A
   - {t: ´, s: ¨}
-  - $$mdi:apple-keyboard-shift$$
+  - {t: '$$mdi:apple-keyboard-shift$$', s: '$$mdi:apple-keyboard-caps$$'}
   - Q
   - Z
   - V
@@ -52,7 +52,7 @@ layers:
   - {t: ',', s: ;}
   - {t: ., s: ':'}
   - {t: '-', s: _}
-  - $$mdi:apple-keyboard-shift$$
+  - {t: '$$mdi:apple-keyboard-shift$$', s: '$$mdi:apple-keyboard-caps$$'}
   - $$mdi:volume-off$$
   - $$mdi:printer-outline$$
   - $$mdi:apple-keyboard-option$$
